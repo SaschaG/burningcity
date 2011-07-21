@@ -10,7 +10,9 @@
   <div class = "main">
          <%= render 'layouts/header' %>
     
-    <section class = "round2">
+    <section class = "round2">  
+  <p style="color: green"><%= notice %></p>
+  <p style="color: red"><%= alert %></p>
       <%= yield %>
     </section>
   </div>
